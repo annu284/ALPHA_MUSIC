@@ -6,15 +6,16 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("33125525"))
+API_HASH = getenv("eba06c9f32dc283510c4366403d7948f")
+BOT_TOKEN = getenv("8867970406:AAGc92Xy0Nox3muPlmFOXjkx5uSJg9smoCs")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", MONGO_URL=mongodb+srv://rj5706603:O95nvJYxapyDHfkw@cluster0.fzmckei.mongodb.net/
+?retryWrites=true&w=majority&appName=Cluster0)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003872333955))
 OWNER_ID = int(getenv("OWNER_ID", 6584776359))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -37,7 +38,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", BQH5dJUABFw0cepkDZ3zv0eXl1YhYK1Ra-LB02zIdraYkAvoqoqt_8MxVTaas-kCfctvQveBPJR83Tes-UndpgOua4TLIoYfAyI0KEGzClRz3ikY1DVFRxi1IViWPeJ-HR7AfjUKs4qe0IiblWTHRMexZstn3nIKMzLod-H6fS4QvTjgfLAKmycV2EizPgl73NDswtQu14BNYSG0gg4n43qu8YtqL0ATKvBNlq382vx5DX4OT6MO5TuV-N16ey2hCgqvGO4Ab-JQPuZ0IcS-gzFyhO9SZfRf2CVo-P4w1p4QId_bA4Z69kNDmd8iGDZQO8pj0IxN8K_VUwExtH923pjfUjOOTAAAAAHY6wLdAA)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
